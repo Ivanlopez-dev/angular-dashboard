@@ -19,7 +19,7 @@ export class HeavyLoadersSlowComponent {
 
     // ⚠️ Blocking Execution process
     console.log('❌ Program blocked: HeavyLoader Component');
-    while (Date.now() - start < 3000) {
+    while (Date.now() - start < 2000) {
 
     }
 
